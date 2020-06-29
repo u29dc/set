@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ .Lang }}">
 	<head>
+		<meta http-equiv="refresh" content="0; url=https://cdn.jsdelivr.net/npm/@u29dc/set/" />
+
 		{{ $css := resources.Get "main.scss" | resources.ToCSS (dict "outputStyle" "compressed") | resources.PostCSS | resources.Minify }}
 		<link rel="stylesheet" href="{{ $css.Permalink | relURL }}" />
 	</head>

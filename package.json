@@ -19,6 +19,7 @@
 	},
 	"homepage": "https://set.netlify.app",
 	"license": "CC0-1.0",
+	"main": "dist/main.min.css",
 	"name": "@u29dc/set",
 	"repository": {
 		"type": "git",

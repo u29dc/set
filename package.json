@@ -1,0 +1,34 @@
+{
+	"author": {
+		"name": "iinfin",
+		"url": "https://iinf.in"
+	},
+	"bugs": {
+		"url": "https://github.com/u29dc/css/issues"
+	},
+	"description": "Set CSS",
+	"devDependencies": {
+		"cssnano": "^4.1.10",
+		"postcss-cli": "^7.1.1",
+		"postcss-import": "^12.0.1",
+		"postcss-import-url": "^5.1.0",
+		"postcss-mixins": "^6.2.3",
+		"postcss-nested": "^4.2.1",
+		"postcss-preset-env": "^6.7.0",
+		"postcss-url": "^8.0.0"
+	},
+	"homepage": "https://set.netlify.app",
+	"license": "CC0-1.0",
+	"name": "@u29dc/set",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/u29dc/css"
+	},
+	"scripts": {
+		"build": "npm run hugo",
+		"dev": "hugo server --disableFastRender --renderToDisk  --port 1111",
+		"hugo": "hugo --minify",
+		"theme": "git submodule add -f https://github.com/u29dc/hbp.git themes/hbp && git submodule update --rebase --remote "
+	},
+	"version": "1.5.0"
+}

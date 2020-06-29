@@ -1,0 +1,105 @@
+// #################################################################################################
+// normalize css
+
+// github.com/necolas/normalize.css
+// @import "https://cdn.jsdelivr.net/npm/normalize.css/normalize.css";
+
+html {
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+main {
+	display: block;
+}
+
+pre {
+	font-family: monospace, monospace;
+	font-size: 1em;
+}
+
+a {
+	background-color: transparent;
+}
+
+b,
+strong {
+	font-weight: bolder;
+}
+
+code {
+	font-family: monospace, monospace;
+	font-size: 1em;
+}
+
+small {
+	font-size: 80%;
+}
+
+input {
+	font-family: inherit;
+	font-size: 100%;
+	line-height: 1.15;
+	margin: 0;
+	overflow: visible;
+}
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+	height: auto;
+}
+
+[type="search"] {
+	-webkit-appearance: textfield;
+	outline-offset: -2px;
+}
+
+[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+[hidden] {
+	display: none;
+}
+
+// #################################################################################################
+a {
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a,
+a:active,
+a:hover,
+a:visited {
+	color: currentColor;
+	outline: 0;
+}
+
+::-moz-selection {
+	background-color: var(--c020);
+	color: var(--c090);
+}
+
+::selection {
+	background-color: var(--c020);
+	color: var(--c090);
+}
+
+.noselect,
+br,
+button,
+img {
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}

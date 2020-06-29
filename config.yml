@@ -1,0 +1,23 @@
+####################################################################################################
+canonifyURLs: false
+cleanDestinationDir: true
+copyright: Public Domain
+defaultContentLanguage: en
+disableKinds:
+  - RSS
+  - taxonomy
+  - taxonomyTerm
+
+languages:
+  en:
+    languageCode: en-us
+    languageLang: en
+    languageName: English
+    weight: 0
+
+metaDataFormat: yaml
+noTimes: true
+publishDir: dist
+relativeURLs: true
+verbose: false
+watch: true

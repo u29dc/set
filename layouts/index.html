@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html lang="{{ .Lang }}">
+	<head>
+		{{ $css := resources.Get "main.scss" | resources.ToCSS (dict "outputStyle" "compressed") | resources.PostCSS | resources.Minify }}
+		<link rel="stylesheet" href="{{ $css.Permalink | relURL }}" />
+	</head>
+	<body></body>
+</html>

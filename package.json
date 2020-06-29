@@ -30,5 +30,5 @@
 		"hugo": "hugo --minify",
 		"theme": "git submodule add -f https://github.com/u29dc/hbp.git themes/hbp && git submodule update --rebase --remote "
 	},
-	"version": "1.5.0"
+	"version": "1.6.0"
 }

@@ -3,6 +3,12 @@
 [build]
   publish = "dist/"
 
+[[redirects]]
+  from = "https://set.netlify.app/*"
+  to = "https://cdn.jsdelivr.net/npm/@u29dc/set/"
+  status = 301
+  force = true
+
 [[headers]]
   for = "/*"
   [headers.values]

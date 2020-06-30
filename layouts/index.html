@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ .Lang }}">
 	<head>
-		<meta http-equiv="refresh" content="0; url=https://cdn.jsdelivr.net/npm/@u29dc/set/" />
 		<meta name="generator" content="Hugo" />
 
 		{{ $css := resources.Get "main.scss" | resources.ToCSS (dict "outputStyle" "compressed") | resources.PostCSS | resources.Minify }}

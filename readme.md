@@ -5,5 +5,5 @@
 ```html
 <!-- https://set.netlify.app/css" -->
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@u29dc/set@1.7.0/dist/main.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@u29dc/set" />
 ```
